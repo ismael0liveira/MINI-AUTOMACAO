@@ -30,7 +30,7 @@ class Recon(Site):
 	'''
 	Aqui eu estou criando uma espécie de botão de liga e desliga que por padrão vem desativado,
 	setado com o valor "nao", mas quando a pessoa seta o valor "sim" ele é ligado e cai na condição
-	do if / else, quando tem o valor sim ele ativa o nmap, se não, não ativa.
+	do if / else, quando tem o valor sim ele ativa a ferramenta, se não, não ativa.
 	'''
 
 	def recon(self, nmap="nao", findomain="nao", arjun="nao"):
